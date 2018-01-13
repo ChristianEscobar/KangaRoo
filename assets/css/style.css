@@ -11,3 +11,26 @@
   height: 507px;
   margin-left: 180px;
 }
+
+.jumbotron.fosters {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 760px;
+  height: 507px;
+  margin-left: 180px;
+}
+
+.jumbotron.publications {
+  background-image: url("../images/kanga_baby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 494px;
+  height: 568px;
+  margin-left: 180px;
+}
+
+.lead {
+  padding-top: 10px;
+  padding-left: 10px;
+}

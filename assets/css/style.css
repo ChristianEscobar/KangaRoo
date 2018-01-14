@@ -7,30 +7,45 @@
   background-image: url("../images/kanga_rose.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 760px;
+  width: 100%;
   height: 507px;
-  margin-left: 180px;
 }
 
 .jumbotron.fosters {
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 760px;
-  height: 507px;
-  margin-left: 180px;
+  width: 100%;
+  height: auto;
 }
 
+/*
 .jumbotron.publications {
   background-image: url("../images/kanga_baby.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 494px;
+  background-size: contain;
+  width: 100%;
   height: 568px;
-  margin-left: 320px;
 }
+*/
 
 .lead {
   padding-top: 10px;
   padding-left: 10px;
+}
+
+.header-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social-media-div {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+/* For devices 400px and larger: */
+@media only screen and (max-device-width: 1024px) {
+
 }

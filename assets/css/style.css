@@ -11,14 +11,6 @@
   height: 507px;
 }
 
-.jumbotron.fosters {
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-}
-
 /*
 .jumbotron.publications {
   background-image: url("../images/kanga_baby.jpg");
@@ -43,9 +35,4 @@
   position: absolute;
   top: 40px;
   left: 20px;
-}
-
-/* For devices 400px and larger: */
-@media only screen and (max-device-width: 1024px) {
-
 }

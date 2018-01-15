@@ -36,3 +36,26 @@
   top: 40px;
   left: 20px;
 }
+
+.img-about {
+  width: 100%;
+  z-index: 100;
+}
+
+.col-about-left {
+  padding-right: 0;
+}
+
+.col-about-right {
+  padding-left: 0;
+  margin-left: -1px;
+}
+
+.card {
+  border: none;
+  padding: 20px;
+}
+
+.row {
+  margin-bottom: 10px;
+}

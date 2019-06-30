@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="">
-      <meta name="author" content="">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
 
-      <title>Kanga Roo - Home</title>
+		<title>Kanga Roo - Home</title>
 
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<!-- JQuery -->
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			crossorigin="anonymous"
+		></script>
 
-      <!-- Bootstrap core CSS -->
-      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom Javascrip -->
+		<script src="./assets/javascript/site.js"></script>
 
-      <!-- Custom styles for this template -->
-      <link href="assets/css/heroic-features.css" rel="stylesheet">
+		<!-- Bootstrap core CSS -->
+		<link
+			href="assets/vendor/bootstrap/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
 
-      <!-- Custom styles for this site -->
-      <link href="assets/css/style.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="assets/css/heroic-features.css" rel="stylesheet" />
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Kanga Roo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="fosters.html">Fosters</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+		<!-- Custom styles for this site -->
+		<link href="assets/css/style.css" rel="stylesheet" />
 
-	  <!-- Page Content -->
-	  <div class="container">
-	
-      <!-- Jumbotron Header -->
-      <!--
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Architects+Daughter"
+			rel="stylesheet"
+		/>
+	</head>
+	<body onload="initializePage();">
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">Kanga Roo</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarResponsive"
+					aria-controls="navbarResponsive"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="fosters.html">Fosters</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="publications.html">Publications</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Page Content -->
+		<div class="container">
+			<!-- Jumbotron Header -->
+			<!--
       <header class="jumbotron my-4 home">
           <p class="lead">
             <a href="https://www.facebook.com/KangaRooTheKitty/" target="_blank" title="Head over to Kanga Roo's Facebook page.">
@@ -67,44 +90,61 @@
       </header>
       -->
 
-      <header>
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-              <img class="img-responsive header-img" src="assets/images/kanga_rose.jpg">
-              <div class="social-media-div">
-                <a href="https://www.facebook.com/KangaRooTheKitty/" target="_blank" title="Head over to Kanga Roo's Facebook page.">
-                  <img src="assets/images/icons/facebook.png" alt="Kanga Roo on Facebook">
-                </a>
-                <a href="https://www.instagram.com/kangaroothekitty/?hl=en" target="_blank" title = "Head over to Kanga Roo's Instagram page">
-                  <img src="assets/images/icons/instagram.png" alt="Kanga Roo on Instagram">
-                </a>
-              </div>
-            </div>
-            <div class="col-md-2"></div>
-        </div>
-      </header>
-    
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-          
-        </div>
-        <div class="col-md-4"></div>
-      </div>
-    </div>
-    <!-- /.container -->
+			<header>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-8">
+						<img
+							class="img-responsive header-img"
+							src="assets/images/kanga_rose.jpg"
+						/>
+						<div class="social-media-div">
+							<a
+								href="https://www.facebook.com/KangaRooTheKitty/"
+								target="_blank"
+								title="Head over to Kanga Roo's Facebook page."
+							>
+								<img
+									src="assets/images/icons/facebook.png"
+									alt="Kanga Roo on Facebook"
+								/>
+							</a>
+							<a
+								href="https://www.instagram.com/kangaroothekitty/?hl=en"
+								target="_blank"
+								title="Head over to Kanga Roo's Instagram page"
+							>
+								<img
+									src="assets/images/icons/instagram.png"
+									alt="Kanga Roo on Instagram"
+								/>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+			</header>
 
-	  <!-- Footer -->
-	  <footer class="py-5 bg-dark">
-	    <div class="container">
-	      <p class="m-0 text-center text-white">Copyright &copy; Kanga Roo 2017</p>
-	    </div>
-	    <!-- /.container -->
-	  </footer>
-	
-	  <!-- Bootstrap core JavaScript -->
-	  <script src="assets/vendor/jquery/jquery.min.js"></script>
-	  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-   </body>
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4"></div>
+			</div>
+		</div>
+		<!-- /.container -->
+
+		<!-- Footer -->
+		<footer class="py-5 bg-dark">
+			<div class="container">
+				<p class="m-0 text-center text-white">
+					Copyright &copy; Kanga Roo <span id="year"></span>
+				</p>
+			</div>
+			<!-- /.container -->
+		</footer>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="assets/vendor/jquery/jquery.min.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>

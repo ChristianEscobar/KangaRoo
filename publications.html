@@ -5,7 +5,10 @@
 		<title>Kanga Roo - Publications</title>
 		
 		<!-- JQuery -->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    
+    <!-- Custom Javascrip -->
+		<script src="./assets/javascript/site.js"></script>
 
    <!-- Bootstrap core CSS -->
    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +22,7 @@
 		<!-- Google Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
   </head>
-  <body>
+  <body onload="initializePage();">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -129,7 +132,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Kanga Roo 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Kanga Roo <span id="year"></span></p>
       </div>
       <!-- /.container -->
     </footer>
